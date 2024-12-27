@@ -362,4 +362,140 @@ main .main-sec .main-sec-title div p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.aside-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 60px;
+}
+.aside-title p {
+  font-family: var(--third-family);
+  font-weight: 600;
+  font-size: 16px;
+  color: #6f767e;
+}
+.aside-title p:nth-child(2) {
+  margin-right: 100px;
+}
+.aside-title div {
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+  box-shadow: inset 3px 3px 3px -1px rgba(34, 58, 120, 0.05), inset -6px -6px 3px -4px rgba(232, 235, 243, 0.77), 0 20px 13px 0 rgba(41, 72, 152, 0.03), 0 39px 25px 0 rgba(41, 72, 152, 0.03), 0 65px 47px 0 rgba(41, 72, 152, 0.04), 0 100px 80px 0 rgba(41, 72, 152, 0.05), 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.03);
+}
+.aside-title div img {
+  width: 50px;
+  height: 50px;
+}
+
+.aside-payments-sec {
+  display: flex;
+  flex-direction: column;
+}
+.aside-payments-sec .aside-payments-sec-title {
+  display: flex;
+  align-items: center;
+  gap: 96px;
+  margin-top: 90px;
+  margin-bottom: 30px;
+}
+.aside-payments-sec .aside-payments-sec-title h1 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 34px;
+  color: #000;
+}
+.aside-payments-sec .aside-payments-sec-title p {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+}
+.aside-payments-sec .aside-payments {
+  border-radius: 10px;
+  width: 344px;
+  height: 118px;
+  box-shadow: 0 21px 79px 0 rgba(0, 0, 0, 0.08);
+  background: #fff;
+  padding: 10px;
+  flex-direction: column;
+  display: flex;
+  margin-top: 10px;
+}
+.aside-payments-sec .aside-payments-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.aside-payments-sec .aside-payments-content div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.aside-payments-sec .aside-payments-content div:nth-child(1) img:nth-child(2) {
+  margin-right: 65px;
+}
+.aside-payments-sec .aside-payments-content div:nth-child(2) {
+  border-radius: 10px;
+  width: 100px;
+  height: 25px;
+  box-shadow: 0 7px 27px 0 rgba(0, 0, 0, 0.07);
+  background: #fff;
+}
+.aside-payments-sec .aside-payments-avatars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.aside-payments-sec .aside-payments-avatars P {
+  font-family: var(--second-family);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  color: #1b1d4e;
+  margin-right: 150px;
+}
+
+.aside-payments-new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 344px;
+  height: 50px;
+  background: #51459e;
+  opacity: 0.5;
+  position: relative;
+  margin-top: 35px;
+}
+.aside-payments-new div:nth-child(1) {
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  box-shadow: 0 2px 27px 0 rgba(0, 0, 0, 0.06);
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 10px;
+}
+.aside-payments-new .aside-payments-new-p {
+  display: flex;
+  align-items: center;
+  margin-left: 65px;
+}
+.aside-payments-new .aside-payments-new-p p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  color: #51459e;
+  gap: 15px;
 }/*# sourceMappingURL=main.css.map */
