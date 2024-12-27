@@ -169,11 +169,18 @@ main .main-sec .main-sec-title div p {
 .main-sec-currency-sec {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
+  padding: 40px;
+}
+.main-sec-currency-sec div:nth-child(2) {
+  background: #fde4f9;
+}
+.main-sec-currency-sec div:nth-child(3) {
+  background: #b5e0e9;
 }
 .main-sec-currency-sec .main-sec-currency {
   border-radius: 10px;
-  width: 178px;
+  width: 180px;
   height: 263px;
   background: #fdedd5;
   padding: 10px;
@@ -193,6 +200,12 @@ main .main-sec .main-sec-title div p {
 .main-sec-currency-sec .main-sec-currency img {
   margin-bottom: 15px;
 }
+.main-sec-currency-sec .main-sec-currency .currency-img {
+  width: 65px;
+}
+.main-sec-currency-sec .main-sec-currency .currency-img2 {
+  width: 100px;
+}
 .main-sec-currency-sec .main-sec-currency b {
   font-family: var(--third-family);
   font-weight: 600;
@@ -200,6 +213,7 @@ main .main-sec .main-sec-title div p {
   letter-spacing: -0.06em;
   color: #3e3c7b;
   margin-bottom: 20px;
+  width: 100px;
 }
 .main-sec-currency-sec .main-sec-currency .currency-p {
   font-family: var(--third-family);
@@ -207,4 +221,145 @@ main .main-sec .main-sec-title div p {
   font-size: 12px;
   color: #3e3c7b;
   margin-top: 20px;
+}
+.main-sec-currency-sec .main-sec-currency:hover {
+  box-shadow: #393939 0 10px 20px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-sec .main-sec-line-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.main-sec .main-sec-line-sec .line-btn {
+  border-radius: 100%;
+  fill: #fff;
+  box-shadow: 19px 22px 45px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 22px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+}
+.main-sec .main-sec-line-sec .line-btn:hover {
+  box-shadow: 0 10px 20px 0 rgba(88, 92, 229, 0.25);
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+}
+.main-sec .line {
+  border-radius: 24px;
+  width: 332px;
+  height: 7px;
+  background: #f7f8fa;
+  position: relative;
+  margin-bottom: 22px;
+}
+.main-sec .line .line_cursor {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 150px;
+  border-radius: 24px;
+  width: 71px;
+  height: 7px;
+  background: #3936fc;
+}
+
+.latest-activities-sec .latest-activities-title h1 {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 30px;
+  color: #000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.latest-activities-sec .latest-activities-title .latest-activities-title-p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+}
+.latest-activities-sec .latest-activities-title .latest-activities-title-p p {
+  font-family: var(--third-family);
+  font-weight: 600;
+  font-size: 16px;
+  color: #6f767e;
+}
+.latest-activities-sec .latest-activities-title .latest-activities-title-p a {
+  font-family: var(--font5);
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: underline;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: #6f767e;
+}
+
+.latest-activities-title-sec {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.latest-activities-title-sec .latest-activities-title-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.latest-activities-title-sec .latest-activities-title-buttons div {
+  border-radius: 10px;
+  width: 41px;
+  height: 41px;
+  background: #f7f7f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.latest-activities-title-sec .latest-activities-title-buttons div:hover {
+  box-shadow: 0 10px 20px 0 rgba(88, 92, 229, 0.25);
+  transition: all 0.3s ease-in-out;
+}
+.latest-activities-title-sec .latest-activities-title-buttons div:nth-child(2) {
+  background: #51459e;
+}
+
+.latest-activities-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 44px;
+}
+.latest-activities-content .latest-activities-content-img {
+  border-radius: 10px;
+  width: 51px;
+  height: 51px;
+  background: #1a55af;
+  opacity: 0.1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.latest-activities-content div b {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  color: #000;
+}
+.latest-activities-content div p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  color: #6f767e;
+}
+
+.latest-activities-content-img2 {
+  background: #fa5f1c;
+  opacity: 0.1;
+  border-radius: 10px;
+  width: 51px;
+  height: 51px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=main.css.map */
