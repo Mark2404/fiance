@@ -19,6 +19,7 @@
 body {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-family: "Google Sans", sans-serif;
 }
 
@@ -614,4 +615,72 @@ main {
 
     }
 
+}
+
+.wallets-sec {
+    h1 {
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 34px;
+        color: #000;
+        margin-top: 65px;
+        margin-bottom: 34px;
+    }
+
+    &__crypto {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 15px;
+        width: 340px;
+
+
+        div:nth-child(1) {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+
+            h3 {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 18px;
+                text-transform: uppercase;
+                color: #5d4e7b;
+            }
+
+            p {
+                font-family: var(--second-family);
+                font-weight: 500;
+                font-size: 10px;
+                color: #5d4e7b;
+                margin-right: 190px;
+            }
+        }
+
+        .degree {
+            b {
+                font-family: var(--font-family);
+                font-weight: 400;
+                font-size: 18px;
+                text-transform: uppercase;
+                text-align: right;
+                color: #5d4e7b;
+            }
+
+            P {
+                font-family: var(--second-family);
+                font-weight: 500;
+                font-size: 13px;
+                text-transform: uppercase;
+                text-align: right;
+                color: #50dfb2;
+            }
+        }
+    }
+}
+
+.right-aside {
+    background: #f9faff;
+    width: 438px;
+    height: 990px;
 }
